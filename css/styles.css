@@ -1,0 +1,117 @@
+html,
+body {
+    margin: 0;
+}
+.main-wrap {
+
+}
+.section-one {
+    background: url(../img/page-one-bg.jpg) center no-repeat;
+    min-height: 100vh;
+}
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-nav-item:first-child {
+    padding: 0;
+}
+.main-nav-item {
+    color: #212121;
+    font-family: Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 0 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo-wrap {
+
+}
+.row-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+    margin: auto;
+    max-width: 1171px;
+    width: 80%;
+}
+.menu-icon {
+    border-top: 3px solid #212121;
+    position: relative;
+    width: 15px;
+    margin-top: 15px;
+}
+.menu-icon:before,
+.menu-icon:after {
+    border-top: 3px solid #212121;
+    content: '';
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.menu-icon:before {
+    top: -9px;
+}
+.menu-icon:after {
+    top: 3px;
+}
+.article-wrap {
+    display: flex;
+    justify-content: flex-end;
+    height: calc(100vh - 90px);
+}
+.section-one-article {
+    max-width: 560px;
+    padding: 10% 0 13.5% 0;
+    align-self: flex-end;
+}
+.article-h1 {
+    font-family: Sans-serif;
+    color: #212121;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: right;
+}
+.article-p {
+    color: #212121;
+    float: right;
+    font-family: Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+}
+.article-line {
+    border-top: 3px solid #212121;
+    bottom: 17px;
+    display: block;
+    float: right;
+    height: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 138px;
+}
+.article-button {
+    border: 2px solid #212121;
+    display: block;
+    float: right;
+    height: 44px;
+    position: relative;
+    text-decoration: none;
+    top: 31px;
+    width: 267px;
+}
+.article-button-a {
+    color: #212121;
+    display: block;
+    font-family: Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+}
