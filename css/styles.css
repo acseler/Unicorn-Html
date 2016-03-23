@@ -564,6 +564,9 @@ p {
     display: flex;
     align-items: center;
 }
+.news-reverse {
+    flex-direction: row-reverse;
+}
 .news-text {
     padding: 0 79px;
     display: flex;
@@ -589,9 +592,9 @@ p {
     padding: 38px 0 0 0;
     text-align: center;
 }
-.news-text .theme-date {
-    font-family: Sans-serif;
+.theme-date {
     color: #555555;
+    font-family: Sans-serif;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1.05px;
@@ -602,8 +605,206 @@ p {
 
 }
 .eleventh-section {
-    background-color:  #efefef;
+    align-items: center;
+    background-color: #efefef;
+    display: flex;
     height: 217px;
+    justify-content: center;
     margin: auto;
     width: 1500px;
+
+}
+.eleventh-section-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 115px 0 0;
+    width: 1033px;
+}
+.news-caro {
+    display: flex;
+}
+.news-caro-text-wrap {
+    padding: 0 0 0 20px;
+}
+.news-caro-line {
+    background-color: #212121;
+    display: block;
+    height: 73px;
+    width: 6px;
+}
+.news-caro-title {
+    color: #222222;
+    font-family: Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+}
+.twelfth-section {
+    align-items: flex-start;
+    display: flex;
+    height: 462px;
+    justify-content: center;
+    margin: auto;
+    width: 1500px;
+
+}
+.twelfth-section-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 303px;
+    padding: 75px 0 0 0;
+    width: 843px;
+}
+.twitter-img {
+    padding: 0 0 31px 0;
+}
+.twelfth-section-text {
+    font-family: Sans-serif;
+    color: #222222;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: center;
+}
+.loveless {
+    font-family: Sans-serif;
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}
+.thirteenth-section {
+    background-color:  #212121;
+    height: 490px;
+    margin: auto;
+    width: 1500px;
+}
+.thirteenth-section-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-and-links {
+    display: flex;
+    border-bottom: 1px solid aliceblue;
+    justify-content: space-between;
+    padding: 67px 0 12px 0;
+    width: 1157px;
+}
+.unicorn-form {
+    width: 467px;
+}
+.unicorn-links {
+    display: flex;
+    justify-content: space-between;
+    width: 478px;
+    padding: 5px 84px 0 0;
+}
+.unicorn-links p {
+    color: #dddddd;
+    font-family: Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.unicorn-links a {
+    font-family: Sans-serif;
+    color:  #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+}
+.unicorn-links-group {
+    display: flex;
+    flex-flow: column wrap;
+}
+.unicorn-links-group {
+
+}
+.email-and-subject {
+    display: flex;
+    justify-content: flex-start;
+}
+.email-and-subject input {
+    background-color: #212121;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+    width: 193px;
+    margin: 0 37px 0 0px;
+}
+.unicorn-form textarea {
+    background: #222222;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+    margin: 20px 0 0 0;
+    resize: none;
+    width: 420px;
+    height: 15px;
+}
+.unicorn-form button {
+    background: #222222;
+    border: none;
+    color: aliceblue;
+    margin-top: 84px;
+    font-size: 12px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0 12px 0;
+    width: 1163px;
+}
+.footer-text {
+    font-family: Sans-serif;
+    color:  #aaaaaa;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.footer-links {
+    width: 287px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 0 0;
+}
+.footer-links a {
+    font-family: Sans-serif;
+    color: #aaaaaa;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.unicorn-form-title {
+    color: #eeeeee;
+    font-family: Sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.unicorn-form-text {
+    color: #999999;
+    font-family: Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding: 17px 0 34px 0;
 }
